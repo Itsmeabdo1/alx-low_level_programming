@@ -1,15 +1,22 @@
 #include "main.h"
 
 /**
- * add - adds two integers and returns the result
- * @a: int to be added to b
- * @b: int to be added to a
- * Return: sum of a and b
+ * print_alphabet_x10 - func
+ *
+ * Return - 0
  */
-int add(int a, int b)
+void print_alphabet_x10(void)
 {
-int c;
-c = a + b;
-return (c);
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
 }
-
+_putchar('\n');
+b++;
+}
+}
